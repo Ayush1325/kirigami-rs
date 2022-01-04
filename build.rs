@@ -1,4 +1,4 @@
-const LIB_NAME: &str = "Kirigam2";
+const LIB_NAME: &str = "Kirigami2";
 
 fn main() {
     eprintln!("cargo:warning={:?}", std::env::vars().collect::<Vec<_>>());
