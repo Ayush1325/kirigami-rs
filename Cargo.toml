@@ -1,0 +1,15 @@
+[package]
+name = "kirigami"
+description = "A Crate to use Kirigami from Rust"
+version = "0.1.0"
+edition = "2021"
+links = "Kirigami2"
+license = "MIT"
+build = "build.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[build-dependencies]
+kde_frameworks = "0.1"
