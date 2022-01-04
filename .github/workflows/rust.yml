@@ -43,8 +43,8 @@ jobs:
         version: ${{ matrix.qt }}
         cached: ${{ steps.cache-qt.outputs.cache-hit }}
 
-    - name: Install KF5i18n
-      run: sudo apt install libkf5kdelibs4support5-bin  
+    - name: Install Dependencies
+      run: sudo apt install libkf5kdelibs4support5-bin kirigami2-dev 
     - name: Build
       run: cargo build --verbose --all-features
     - name: Run tests
