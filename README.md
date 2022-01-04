@@ -1,6 +1,6 @@
 # kirigami
-[![Crates.io](https://img.shields.io/crates/v/kde_frameworks.svg)](https://crates.io/crates/kde_frameworks)
-[![Documentation](https://docs.rs/kde_frameworks/badge.svg)](https://docs.rs/kde_frameworks/)
+[![Crates.io](https://img.shields.io/crates/v/kirigami.svg)](https://crates.io/crates/kirigami)
+[![Documentation](https://docs.rs/kirigami/badge.svg)](https://docs.rs/kirigami/)
 
 ## Introduction
 This crate is a wrapper for Kirigami KDE Framework. Since this Framework primarily exports
